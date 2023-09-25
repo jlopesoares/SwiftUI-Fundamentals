@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Framework {
+struct Framework: Hashable, Identifiable {
+    let id = UUID()
     let name: String
     let imageName: String
     let urlString: String
     let description: String
-    
 }
 
 struct MockData {
