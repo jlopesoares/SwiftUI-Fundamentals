@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962DDD472AC4839300648A16 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DDD462AC4839300648A16 /* SafariView.swift */; };
 		96BECBD02ABCF95A005539E3 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BECBCF2ABCF95A005539E3 /* Apple_FrameworksApp.swift */; };
 		96BECBD42ABCF95B005539E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BECBD32ABCF95B005539E3 /* Assets.xcassets */; };
 		96BECBD72ABCF95B005539E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BECBD62ABCF95B005539E3 /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		962DDD462AC4839300648A16 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		96BECBCC2ABCF95A005539E3 /* Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BECBCF2ABCF95A005539E3 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
 		96BECBD32ABCF95B005539E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				96FDF54B2AC239C400DCBE85 /* DetailView.swift */,
 				96FDF54D2AC23C2300DCBE85 /* AFButton.swift */,
 				96FDF54F2AC23EEC00DCBE85 /* FrameworkGridViewModel.swift */,
+				962DDD462AC4839300648A16 /* SafariView.swift */,
 				96BECBD32ABCF95B005539E3 /* Assets.xcassets */,
 				96BECBD52ABCF95B005539E3 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				96FDF54E2AC23C2300DCBE85 /* AFButton.swift in Sources */,
 				96BECBD02ABCF95A005539E3 /* Apple_FrameworksApp.swift in Sources */,
 				96FDF5502AC23EEC00DCBE85 /* FrameworkGridViewModel.swift in Sources */,
+				962DDD472AC4839300648A16 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
