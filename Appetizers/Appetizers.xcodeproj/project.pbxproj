@@ -23,6 +23,7 @@
 		96DF73D12ACDD49000573B72 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73D02ACDD49000573B72 /* LoadingView.swift */; };
 		96DF73D32ACDD5A200573B72 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73D22ACDD5A200573B72 /* Color+Ext.swift */; };
 		96DF73D52ACDDA6A00573B72 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73D42ACDDA6A00573B72 /* RemoteImage.swift */; };
+		96DF73E52ACF679D00573B72 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73E42ACF679D00573B72 /* AppetizerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		96DF73D02ACDD49000573B72 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		96DF73D22ACDD5A200573B72 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		96DF73D42ACDDA6A00573B72 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		96DF73E42ACF679D00573B72 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		96DF73D62ACF665800573B72 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				96DF73E32ACF678B00573B72 /* DetailView */,
 				71DA01EB2AC787590065D295 /* AppetizerTabView.swift */,
 				96DF73DA2ACF668800573B72 /* AccountView */,
 				96DF73D92ACF667A00573B72 /* AppetizerListView */,
@@ -207,6 +210,14 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		96DF73E32ACF678B00573B72 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				96DF73E42ACF679D00573B72 /* AppetizerDetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,6 +301,7 @@
 				71DA01EA2AC787590065D295 /* AppetizersApp.swift in Sources */,
 				96DF73CF2ACC893300573B72 /* Alert.swift in Sources */,
 				71DA01F82AC787A10065D295 /* AppetizerListView.swift in Sources */,
+				96DF73E52ACF679D00573B72 /* AppetizerDetailView.swift in Sources */,
 				71DA01FC2AC787BA0065D295 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
