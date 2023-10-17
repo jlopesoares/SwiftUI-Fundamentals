@@ -30,6 +30,7 @@
 		96DF73F02ADDE0BE00573B72 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73EF2ADDE0BE00573B72 /* String+Ext.swift */; };
 		96DF73F22ADDE85F00573B72 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F12ADDE85F00573B72 /* User.swift */; };
 		96DF73F52ADEF28B00573B72 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F42ADEF28B00573B72 /* EmptyStateView.swift */; };
+		96DF73F72ADEF63B00573B72 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F62ADEF63B00573B72 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		96DF73EF2ADDE0BE00573B72 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		96DF73F12ADDE85F00573B72 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		96DF73F42ADEF28B00573B72 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		96DF73F62ADEF63B00573B72 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 			children = (
 				96CC5FE12ACB68C6005F96F3 /* Appetizer.swift */,
 				96DF73F12ADDE85F00573B72 /* User.swift */,
+				96DF73F62ADEF63B00573B72 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				96CC5FE82ACC8244005F96F3 /* APError.swift in Sources */,
 				96DF73EA2ADC92E300573B72 /* XDismissButton.swift in Sources */,
 				96CC5FE22ACB68C6005F96F3 /* Appetizer.swift in Sources */,
+				96DF73F72ADEF63B00573B72 /* Order.swift in Sources */,
 				96DF73EE2ADDDF4600573B72 /* AccountViewModel.swift in Sources */,
 				96DF73CD2ACC87E500573B72 /* AppetizerListViewModel.swift in Sources */,
 				96DF73F52ADEF28B00573B72 /* EmptyStateView.swift in Sources */,
