@@ -31,6 +31,7 @@
 		96DF73F22ADDE85F00573B72 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F12ADDE85F00573B72 /* User.swift */; };
 		96DF73F52ADEF28B00573B72 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F42ADEF28B00573B72 /* EmptyStateView.swift */; };
 		96DF73F72ADEF63B00573B72 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F62ADEF63B00573B72 /* Order.swift */; };
+		96DF73F92ADEFF6700573B72 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F82ADEFF6700573B72 /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		96DF73F12ADDE85F00573B72 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		96DF73F42ADEF28B00573B72 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		96DF73F62ADEF63B00573B72 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		96DF73F82ADEFF6700573B72 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				96DF73E22ACF673000573B72 /* Image */,
 				96DF73E12ACF672900573B72 /* Cells */,
 				96DF73D82ACF666400573B72 /* UIKitComponents */,
+				96DF73F82ADEFF6700573B72 /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				71DA01EA2AC787590065D295 /* AppetizersApp.swift in Sources */,
 				96DF73CF2ACC893300573B72 /* Alert.swift in Sources */,
 				71DA01F82AC787A10065D295 /* AppetizerListView.swift in Sources */,
+				96DF73F92ADEFF6700573B72 /* CustomModifiers.swift in Sources */,
 				96DF73E52ACF679D00573B72 /* AppetizerDetailView.swift in Sources */,
 				71DA01FC2AC787BA0065D295 /* OrderView.swift in Sources */,
 			);
