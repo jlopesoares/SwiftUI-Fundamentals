@@ -29,6 +29,7 @@
 		96DF73EE2ADDDF4600573B72 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73ED2ADDDF4600573B72 /* AccountViewModel.swift */; };
 		96DF73F02ADDE0BE00573B72 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73EF2ADDE0BE00573B72 /* String+Ext.swift */; };
 		96DF73F22ADDE85F00573B72 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F12ADDE85F00573B72 /* User.swift */; };
+		96DF73F52ADEF28B00573B72 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF73F42ADEF28B00573B72 /* EmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		96DF73ED2ADDDF4600573B72 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		96DF73EF2ADDE0BE00573B72 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		96DF73F12ADDE85F00573B72 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		96DF73F42ADEF28B00573B72 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		96DF73D72ACF665F00573B72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				96DF73F32ADEF27A00573B72 /* EmptyStates */,
 				96DF73E62ADC924F00573B72 /* Buttons */,
 				96DF73E22ACF673000573B72 /* Image */,
 				96DF73E12ACF672900573B72 /* Cells */,
@@ -241,6 +244,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		96DF73F32ADEF27A00573B72 /* EmptyStates */ = {
+			isa = PBXGroup;
+			children = (
+				96DF73F42ADEF28B00573B72 /* EmptyStateView.swift */,
+			);
+			path = EmptyStates;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -317,6 +328,7 @@
 				96CC5FE22ACB68C6005F96F3 /* Appetizer.swift in Sources */,
 				96DF73EE2ADDDF4600573B72 /* AccountViewModel.swift in Sources */,
 				96DF73CD2ACC87E500573B72 /* AppetizerListViewModel.swift in Sources */,
+				96DF73F52ADEF28B00573B72 /* EmptyStateView.swift in Sources */,
 				96DF73D32ACDD5A200573B72 /* Color+Ext.swift in Sources */,
 				71DA01FA2AC787AB0065D295 /* AccountView.swift in Sources */,
 				96DF73F22ADDE85F00573B72 /* User.swift in Sources */,
