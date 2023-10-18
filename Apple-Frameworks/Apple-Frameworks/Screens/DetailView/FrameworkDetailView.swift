@@ -9,40 +9,46 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     
-    var framework: Framework
-    @State private var isShowingSafariView = false
+    @ObservedObject var viewModel: FrameworkDetailViewModel
     
     var body: some View {
         VStack {
             
-            FrameworkTitleView(framework: framework)
+            XDismissButton(isShowingModal: $viewModel.isShowingDetailView.wrappedValue)
             
-            Text(framework.description)
+            FrameworkTitleView(framework: viewModel.framework)
+            
+            Text(viewModel.framework.description)
                 .font(.body)
                 .padding()
             
             Spacer()
             
-            Button {
-                isShowingSafariView = true
-            } label: {
-//                AFButton(title: "Learn More")
+            Link(destination: URL(string: viewModel.framework.urlString)!) {
                 Label("Learn More", systemImage: "book.fill")
             }
-            .buttonStyle(.borderedProminent)
-            .controlSize(.large)
-            .tint(.red)
+            
+//            Button {
+//                viewModel.isShowingSafariView = true
+//            } label: {
+////                AFButton(title: "Learn More")
+//                Label("Learn More", systemImage: "book.fill")
+//            }
+//            .buttonStyle(.borderedProminent)
+//            .controlSize(.large)
+//            .tint(.red)
             
         }
-        .fullScreenCover(isPresented: $isShowingSafariView) {
-            SafariView(url: URL(string: framework.urlString)!)
+        .fullScreenCover(isPresented: $viewModel.isShowingSafariView) {
+            SafariView(url: URL(string: viewModel.framework.urlString)!)
         }
     }
 }
 
 struct FrameworkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkDetailView(framework: MockData.sampleFramework)
+        FrameworkDetailView(viewModel: FrameworkDetailViewModel(framework: MockData.sampleFramework,
+                                                                isShowingDetailView: .constant(false)))
             .preferredColorScheme(.dark)
     }
 }
