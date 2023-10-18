@@ -27,5 +27,6 @@ struct AppetizerTabView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         AppetizerTabView()
+            .environmentObject(Order())
     }
 }
